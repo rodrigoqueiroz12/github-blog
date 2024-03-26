@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
 
 import { AppLayout } from './views/_layouts/app'
-import { Home } from './views/pages/home'
-import { Post } from './views/pages/post'
+import { Home } from './views/pages/app/home/home'
+import { Post } from './views/pages/app/post/post'
 
 export const routes = createBrowserRouter([
   {
@@ -14,7 +14,7 @@ export const routes = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/posts/:postId',
+        path: '/posts/:post',
         element: <Post />,
       },
     ],

@@ -4,7 +4,7 @@ import { AppHeader } from './_headers/app-header'
 
 export const AppLayout = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <AppHeader />
       <Outlet />
     </div>

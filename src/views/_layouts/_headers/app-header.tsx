@@ -1,15 +1,8 @@
-import background from '@/assets/app-header-background.svg'
 import { AppLogo } from '@/views/_components/app-logo'
 
 export const AppHeader = () => {
   return (
-    <header className="relative -z-10 flex h-[18.5rem] items-start justify-center pt-16">
-      <img
-        src={background}
-        alt=""
-        className="pointer-events-none absolute inset-0 -z-10 h-full w-full select-none object-cover"
-      />
-
+    <header className="relative flex h-[18.5rem] items-start justify-center border-b border-solid border-border bg-background pt-16">
       <AppLogo />
     </header>
   )
