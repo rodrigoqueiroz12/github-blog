@@ -28,9 +28,10 @@ Users should be able to
 
 - [TypeScript](https://www.typescriptlang.org/) - Typed programming language that builds on JavaScript
 - [React.js](https://react.dev/) - JavaScript Library
+- [Axios](https://axios-http.com/) - Amazing client HTTP library for web and node. 
+- [Tanstack Query](https://tanstack.com/query/v3/) - Amazing and powerful asynchronous state management. 
 - [Shadcn/ui](https://ui.shadcn.com/) - Styled, accessible and responsive components for building high‑quality web apps in React.
 - [Zod](https://zod.dev/) - TypeScript-first schema validation with static type inference.
-
 
 ### Useful resources
 
